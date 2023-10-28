@@ -1,0 +1,20 @@
+### root
+GET http://localhost:3000/ HTTP/1.1
+
+### example
+GET http://localhost:3000/example/ HTTP/1.1
+
+### standard-plugin
+GET http://localhost:3000/standard-plugin/ HTTP/1.1
+
+### hooked-plugin
+GET http://localhost:3000/hooked-plugin/ HTTP/1.1
+
+### hooked-plugin/children/old
+GET http://localhost:3000/hooked-plugin/children/old HTTP/1.1
+
+### hooked-plugin/children/new
+GET http://localhost:3000/hooked-plugin/children/new HTTP/1.1
+
+### hooked-plugin/children/grandchildren/
+GET http://localhost:3000/hooked-plugin/children/grandchildren/ HTTP/1.1
